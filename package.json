@@ -1,0 +1,17 @@
+{
+  "name": "degenite-sdk",
+  "version": "0.1.0",
+  "description": "Unofficial community JavaScript/TypeScript client SDK for interacting with a DEGENITE-compatible trading API.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["degenite", "solana", "trading", "sdk", "community"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
